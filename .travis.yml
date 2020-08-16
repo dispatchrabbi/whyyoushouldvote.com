@@ -1,0 +1,10 @@
+language: node_js
+script: npm run build
+deploy:
+  local_dir: _site
+  # fqdn: whyyoushouldvote.com # uncomment this when the domain goes live
+  provider: pages # deploys to gh_pages branch by default
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  verbose: true # normally false, setting to true to troubleshoot
