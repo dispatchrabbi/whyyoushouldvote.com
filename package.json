@@ -1,0 +1,26 @@
+{
+  "name": "whyyoushouldvote.org",
+  "version": "1.0.0",
+  "description": "The website for the Why You Should Vote podcast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dispatchrabbi/whyyoushouldvote.com.git"
+  },
+  "author": "Eli Morris-Heft",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dispatchrabbi/whyyoushouldvote.com/issues"
+  },
+  "homepage": "https://github.com/dispatchrabbi/whyyoushouldvote.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "markdown-it": "^11.0.0"
+  }
+}

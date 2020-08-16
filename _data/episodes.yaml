@@ -1,0 +1,33 @@
+- number: 0
+  title: Introduction
+  audioUrl: https://example.com/episode0.mp3
+  summary: >
+    We talk about why it's important to not just vote, but be an informed and confident voter. We also talk about what each episode will cover.
+  notes: |
+    In this episode we referred to **these things**:
+
+    - [One link](#)
+    - [Another link](#)
+
+    We also talked about *this* and *that*.
+  homework: pay attention to what's going on around you
+  expandedHomework: |
+    - Be alert!
+    - The world needs more lerts!
+
+- number: 1
+  title: The Federal Government
+  audioUrl: https://example.com/episode1.mp3
+  summary: >
+    All the parts of the federal government, which ones we vote for, and why they're all important.
+  notes: |
+    In this episode we referred to **these things**:
+
+    - [One link](#)
+    - [Another link](#)
+
+    We also talked about *this* and *that*.
+  homework: find out who your representative and senators are
+  expandedHomework: |
+    - Be alert!
+    - The world needs more lerts!

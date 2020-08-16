@@ -1,4 +1,5 @@
-[ ] Transition site to Jekyll
-[ ] Recompile USWDS to use Public Sans as the font of choice
-[ ] Maybe Roboto Slab as the header
+[ ] Add npm commands instead of having to use npx
+[ ] Figure out what Github Pages wants me to do to deploy the site
+[ ] Rewrite 404.html
+[ ] Recompile USWDS to use Public Sans as the font of choice with Roboto Slab as the header
 [ ] Add links to CHECK YOUR REGISTRATION/other resources to the front page

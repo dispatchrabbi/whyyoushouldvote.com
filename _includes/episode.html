@@ -1,0 +1,17 @@
+<article class="margin-bottom-2 border-bottom border-white">
+  <header class="grid-row bg-primary text-base-lightest">
+    <h3 class="grid-col margin-left-2">{{ ep.number }}. {{ ep.title }} <span id="play-button" class="fas fa-play" data-url="{{ ep.audioUrl }}"></span></h3>
+  </header>
+  <section class="summary margin-2">{{ ep.summary | markdownify }}</section>
+  <section class="notes margin-2">
+    <h4>Notes & Links</h4>
+    {{ ep.notes | markdownify }}
+  </section>
+  <section class="homework margin-2">
+    <h4>Homework</h4>
+    <p>Your homework this week is to <strong>{{ ep.homework }}</strong>.</p>
+    {{ ep.expandedHomework | markdownify }}
+  </section>
+  <div class="expand margin-2"><button class="usa-button usa-button--unstyled"><i class="fa fa-chevron-double-down"></i> Read more</button></div>
+  <div class="collapse margin-2"><button class="usa-button usa-button--unstyled"><i class="fa fa-chevron-double-up"></i> Collapse</button></div>
+</article>
