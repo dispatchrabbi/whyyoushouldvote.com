@@ -4,7 +4,9 @@
   "description": "The website for the Why You Should Vote podcast",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
+    "build:sass": "npx gulp build-sass",
+    "build:site": "npx @11ty/eleventy",
+    "build": "npm run build:sass && npm run build:site",
     "serve": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,10 +21,20 @@
   },
   "homepage": "https://github.com/dispatchrabbi/whyyoushouldvote.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "autoprefixer": "^9.8.6",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-csso": "^4.0.0",
+    "sass": "^1.26.10",
+    "uswds-gulp": "github:uswds/uswds-gulp"
   },
   "dependencies": {
     "js-yaml": "^3.14.0",
-    "markdown-it": "^11.0.0"
+    "markdown-it": "^11.0.0",
+    "uswds": "^2.8.0"
   }
 }
