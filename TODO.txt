@@ -1,5 +1,9 @@
-[ ] Add npm commands instead of having to use npx
 [ ] Figure out what Github Pages wants me to do to deploy the site
-[ ] Rewrite 404.html
-[ ] Recompile USWDS to use Public Sans as the font of choice with Roboto Slab as the header
+[ ] Get expando JS working
+[ ] Get audio JS working
+[ ] Convert inline utility classes into sass mixins in CSS rules
+[ ] Fix the footer
+[ ] Make Subscribe button do something interesting
 [ ] Add links to CHECK YOUR REGISTRATION/other resources to the front page
+[ ] Rewrite 404.html
+[ ] Downsize unneeded includes
