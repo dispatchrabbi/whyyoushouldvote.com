@@ -13,10 +13,10 @@ $ cd whyyoushouldvote.com
 $ npm install
 
 # build the site
-$ npx @11ty/eleventy
+$ npm run build
 
 # serve the site
-$ npx @11ty/eleventy --serve
+$ npm run serve
 ```
 
 You should now be able to see the site at [http://localhost:8080/](http://localhost:8080/).
