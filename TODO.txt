@@ -1,0 +1,4 @@
+[ ] Transition site to Jekyll
+[ ] Recompile USWDS to use Public Sans as the font of choice
+[ ] Maybe Roboto Slab as the header
+[ ] Add links to CHECK YOUR REGISTRATION/other resources to the front page

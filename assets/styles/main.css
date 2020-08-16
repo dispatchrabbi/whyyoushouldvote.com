@@ -1,0 +1,56 @@
+html {
+  background-color: var(--bg-base-darker, #3d4551);
+  background-image: url(/assets/images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+body {
+  background-color: transparent;
+  font-family: 'Public Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', 'serif';
+}
+
+article {
+  background-color: white;
+}
+
+article > .notes,
+article > .homework,
+article > .collapse {
+  display: none;
+}
+
+article.expanded > .notes,
+article.expanded > .homework,
+article.expanded > .collapse {
+  display: block;
+}
+article.expanded > .expand {
+  display: none;
+}
+
+#tagline-and-subscribe {
+  align-self: end;
+  text-align: right;
+  color: white;
+}
+
+#license {
+  color: white;
+  text-align: center;
+}
+
+#go-vote {
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: var(--text-primary, #005ea2);
+}
