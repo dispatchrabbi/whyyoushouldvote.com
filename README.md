@@ -45,7 +45,7 @@ Create a pull request for your branch and have someone who knows what they're do
 Once the PR is approved, go ahead and merge it, and delete the branch.
 
 ### Making text-only changes
-Go ahead and just do them right on gh-pages, unless it's, like, paragraphs and paragraphs of text. We're not barbarians.
+Go ahead and just do them right on master, unless it's, like, paragraphs and paragraphs of text. We're not barbarians.
 
 ## Page Layouts
 
