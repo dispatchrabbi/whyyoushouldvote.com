@@ -19,3 +19,16 @@ playButton.addEventListener('click', function() {
   paused ? play(player, SRC) : pause(player);
   this.className = 'fas fa-' + (paused ? 'pause' : 'play');
 });
+
+function init() {
+  // add expando toggle event listeners
+  document.querySelectorAll('article .expand button, article .collapse button')
+    .forEach(button => button.addEventListener('click', function() { toggleEpisodeExpanded(this.closest('article')); }));
+}
+
+function toggleEpisodeExpanded(episodeEl) {
+  const expanded = episodeEl.classList.contains('expanded');
+  episodeEl.classList[expanded ? 'remove' : 'add']('expanded');
+}
+
+init();
