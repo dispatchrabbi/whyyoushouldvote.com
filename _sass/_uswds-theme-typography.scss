@@ -260,31 +260,10 @@ $theme-font-icon-custom-src: false;
 $theme-font-lang-custom-src: false;
 $theme-font-mono-custom-src: false;
 $theme-font-sans-custom-src: false;
-$theme-font-serif-custom-src: (
-  dir: '../../fonts/roboto-slab',
-  roman: (
-    100: 'RobotoSlab-Thin',
-    200: 'RobotoSlab-ExtraLight',
-    300: 'RobotoSlab-Light',
-    400: 'RobotoSlab-Regular',
-    500: 'RobotoSlab-Medium',
-    600: 'RobotoSlab-SemiBold',
-    700: 'RobotoSlab-Bold',
-    800: 'RobotoSlab-ExtraBold',
-    900: 'RobotoSlab-Black',
-  ),
-  italic: (
-    100: false,
-    200: false,
-    300: false,
-    400: false,
-    500: false,
-    600: false,
-    700: false,
-    800: false,
-    900: false,
-  ),
-);
+$theme-font-serif-custom-src: false;
+// We should be putting Roboto Slab's files here, but we can't because the
+// @font-face declarations generated include woff/woff2 files, which we don't have
+// See _uswds-theme-custom-styles for how we work around this.
 
 /*
 ----------------------------------------

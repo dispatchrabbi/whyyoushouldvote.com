@@ -20,6 +20,44 @@ i.e.
 ----------------------------------------
 */
 
+// Output a modified ttf-only @font-face rule
+// When we use the normal one, browsers sometimes hiccup on not loading the woff/woff2
+// So here is this custom one that only puts out ttfs in the @font-face declaration
+@mixin generate-font-face-ttf-only(
+  $display-name,
+  $font-style,
+  $font-files,
+  $dir,
+) {
+  @each $font-weight, $filename in $font-files {
+    @font-face {
+      font-family: unquote($display-name);
+      font-style: unquote($font-style);
+      font-weight: $font-weight;
+      font-display: fallback;
+      src: url(#{$theme-font-path}/#{$dir}/#{$filename}.ttf) format("truetype");
+    }
+  }
+}
+
+$roboto-slab-files: (
+  100: 'RobotoSlab-Thin',
+  200: 'RobotoSlab-ExtraLight',
+  300: 'RobotoSlab-Light',
+  400: 'RobotoSlab-Regular',
+  500: 'RobotoSlab-Medium',
+  600: 'RobotoSlab-SemiBold',
+  700: 'RobotoSlab-Bold',
+  800: 'RobotoSlab-ExtraBold',
+  900: 'RobotoSlab-Black',
+);
+@include generate-font-face-ttf-only(
+  'Roboto Slab',
+  'normal',
+  $roboto-slab-files,
+  '../../fonts/roboto-slab',
+);
+
 h1, h2, h3, h4, h5, h6 {
-   font-family: family('serif');
+  font-family: family('serif');
 }
