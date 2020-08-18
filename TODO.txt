@@ -1,4 +1,3 @@
-[ ] Get audio JS working
 [ ] Make Subscribe button do something interesting
 [ ] Fix the footer
 [ ] Convert inline utility classes into sass mixins in CSS rules
