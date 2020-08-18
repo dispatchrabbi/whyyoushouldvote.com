@@ -5,3 +5,4 @@
 [ ] Rewrite 404.html - pay attention to JS loading and such
 [ ] Make the About The Show section an include and don't include it on 404.html
 [ ] Downsize unneeded includes
+[ ] Correct USWDS usa-button--inverse docu (needs to have usa-button--outline too)

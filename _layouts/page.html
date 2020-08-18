@@ -26,11 +26,16 @@
         padding-left-4
       "><h2 class="margin-top-0">Your guide to becoming an informed voter</h2>
         <div class="display-none tablet:display-block">
-          <button class="usa-button">Check Your Registration</button>
-          <button class="usa-button">Subscribe</button>
+          <a class="usa-button usa-button--outline usa-button--inverse" href="https://www.rockthevote.org/how-to-vote/am-i-registered-to-vote/">Check Your Registration</a>
+          <button class="usa-button usa-button--accent-cool">Subscribe</button>
         </div>
       </div>
     </header>
+
+    <nav class="grid-row grid-gap tablet:display-none margin-bottom-2">
+      <div class="grid-col-12 mobile-lg:grid-col-6 margin-bottom-1"><button class="usa-button usa-button--accent-cool width-full">Subscribe</button></div>
+      <div class="grid-col-12 mobile-lg:grid-col-6 margin-bottom-1"><a class="usa-button usa-button--outline usa-button--inverse width-full" href="https://www.rockthevote.org/how-to-vote/am-i-registered-to-vote/">Check Your Registration</a></div>
+    </nav>
 
     <main>
       {{ content }}
