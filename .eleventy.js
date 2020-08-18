@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
   // allow using YAML data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
+  eleventyConfig.addPassthroughCopy('CNAME'); // enables custom domain on gh-pages
+
   eleventyConfig.addPassthroughCopy('assets/fonts');
   eleventyConfig.addPassthroughCopy('assets/images');
   eleventyConfig.addPassthroughCopy('assets/scripts');
