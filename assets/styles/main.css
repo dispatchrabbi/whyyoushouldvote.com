@@ -46,6 +46,10 @@ article.expanded > .expand {
   text-align: center;
 }
 
+#license a {
+  color: var(--text-accent-cool-dark, #00bde3);
+}
+
 #go-vote {
   color: white;
   text-align: center;
