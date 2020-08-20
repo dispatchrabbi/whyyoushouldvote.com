@@ -1,4 +1,3 @@
-[ ] Make Subscribe options look better
 [ ] Convert inline utility classes into sass mixins in CSS rules
 [ ] Add links to CHECK YOUR REGISTRATION/other resources to the front page
 [ ] Rewrite 404.html - pay attention to JS loading and such

@@ -1,7 +1,17 @@
-<article class="margin-bottom-2 border-bottom border-white">
-  <header class="grid-row bg-primary text-base-lightest">
-    <h3 class="grid-col margin-left-2">{{ ep.number }}. {{ ep.title }} {% if ep.audioUrl %}<span class="play-button fas fa-play" data-url="{{ ep.audioUrl }}"></span>{% endif %}</h3>
-  </header>
+{% capture headerBgClass %}{% unless ep.unreleased %}bg-primary{% else %}bg-base-light{% endunless %}{% endcapture %}
+
+{% capture headerTextClass %}{% unless ep.unreleased %}text-base-lightest{% else %}text-base-dark{% endunless %}{% endcapture %}
+
+{% capture headerText %}{{ ep.number }}. {{ ep.title }}{% endcapture %}
+
+{% capture headerRightContent %}{% if ep.audioUrl %}
+  <div class="play-button"  data-url="{{ ep.audioUrl }}">
+    <i class="play-button-icon fas fa-play-circle"></i><span class="play-button-text margin-left-05">Listen</span>
+  </div>{% endif %}
+{% endcapture %}
+
+{% capture content %}
+  {% unless ep.unreleased %}
   <section class="summary margin-2">{{ ep.summary | markdownify }}</section>
   {% if ep.notes %}<section class="notes margin-2">
     <h4>Notes</h4>
@@ -18,4 +28,14 @@
   </section>
   <div class="expand margin-2"><button class="usa-button usa-button--unstyled"><i class="fa fa-chevron-double-down"></i> Read more</button></div>
   <div class="collapse margin-2"><button class="usa-button usa-button--unstyled"><i class="fa fa-chevron-double-up"></i> Collapse</button></div>
-</article>
+  {% endunless %}
+{% endcapture %}
+
+{% include box.html
+  topClass: 'episode margin-bottom-2',
+  headerBgClass: headerBgClass,
+  headerTextClass: headerTextClass,
+  headerText: headerText,
+  headerRightContent: headerRightContent,
+  content: content
+%}

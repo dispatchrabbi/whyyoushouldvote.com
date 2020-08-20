@@ -1,0 +1,28 @@
+{% capture headerRightContent %}
+<i class="fas fa-times-circle"></i>
+{% endcapture %}
+
+{% capture content %}
+  <div class="display-flex flex-wrap flex-justify-center">
+    {% for player in players %}{% if player[1].link %}
+    <div class="player flex-auto padding-2">
+      <a href="{{ player[1].link }}">
+        <img class="podcast-icon height-3 margin-bottom-neg-05 margin-right-05" alt="{{  player[1].name  }} logo" title="Subscribe on {{ player[1].name }}" src="assets/images/players/{{ player[0] }}/{{ player[1].icon }}" /><span class="font-body-lg">{{ player[1].name }}</span>
+      </a>
+    </div>
+    {% endif %}{% endfor %}
+  </div>
+  <div class="text-center font-body-sm margin-x-2 margin-bottom-2">(More coming soon!)</div>
+{% endcapture %}
+
+{% include box.html
+  id: 'subscribe-box',
+  topClass: 'margin-x-auto margin-top-3 width-card mobile-lg:width-mobile tablet:width-mobile-lg desktop:width-tablet',
+  headerBgClass: 'bg-accent-cool',
+  headerTextClass: 'text-ink',
+  headerText: 'Subscribe',
+  headerRightId: 'subscribe-close',
+  headerRightClass: 'font-heading-lg',
+  headerRightContent: headerRightContent,
+  content: content
+%}
