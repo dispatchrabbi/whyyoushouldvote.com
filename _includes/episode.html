@@ -1,12 +1,16 @@
 <article class="margin-bottom-2 border-bottom border-white">
   <header class="grid-row bg-primary text-base-lightest">
-    <h3 class="grid-col margin-left-2">{{ ep.number }}. {{ ep.title }} <span class="play-button fas fa-play" data-url="{{ ep.audioUrl }}"></span></h3>
+    <h3 class="grid-col margin-left-2">{{ ep.number }}. {{ ep.title }} {% if ep.audioUrl %}<span class="play-button fas fa-play" data-url="{{ ep.audioUrl }}"></span>{% endif %}</h3>
   </header>
   <section class="summary margin-2">{{ ep.summary | markdownify }}</section>
-  <section class="notes margin-2">
-    <h4>Notes & Links</h4>
+  {% if ep.notes %}<section class="notes margin-2">
+    <h4>Notes</h4>
     {{ ep.notes | markdownify }}
-  </section>
+  </section>{% endif %}
+  {% if ep.links %}<section class="links margin-2">
+    <h4>Links & Resources</h4>
+    {{ ep.links | markdownify }}
+  </section>{% endif %}
   <section class="homework margin-2">
     <h4>Homework</h4>
     <p>Your homework this week is to <strong>{{ ep.homework }}</strong>.</p>

@@ -1,33 +1,77 @@
 - number: 0
   title: Introduction
-  audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-1/94792762-44100-2-5e37f808f951c.m4a
+  audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-20/68b746da-546b-02b4-404d-22b17f8a9666.mp3
   summary: >
-    We talk about why it's important to not just vote, but be an informed and confident voter. We also talk about what each episode will cover.
-  notes: |
-    In this episode we referred to **these things**:
-
-    - [One link](#)
-    - [Another link](#)
-
-    We also talked about *this* and *that*.
-  homework: pay attention to what's going on around you
+    We discuss why it's important not just to vote, but be an informed and confident voter. We also talk about what this podcast is and is not, and what each episode will cover.
+  notes:
+  links:
+  homework: think about why you vote, or why you don't
   expandedHomework: |
-    - Be alert!
-    - The world needs more lerts!
+    - If you are someone who has never voted, think about what you want to learn that will make you feel like an informed voter
+    - If you do vote but you know someone who doesn’t, think about why they don’t and how you could start a conversation to help them feel confident voting
 
 - number: 1
   title: The Federal Government
-  audioUrl: https://dovetail-cdn.prxu.org/66/6gzeFm-oxvh927nIc-e7PlPo0PeY9ZCdrnpB0fB_MZU/TCL_July_2020_PART_1.mp3?le=pQ7NxX2LTzaN5Nhix19Ku6aKDza_AKPAVmEfO0LPqFY
+  audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-20/940a2ec7-e0da-6ece-517a-36d3cb5dbe6b.mp3
   summary: >
-    All the parts of the federal government, which ones we vote for, and why they're all important.
+    In this first official episode, Eli and Sonia take you through the basic structure of the federal government. We describe each of the three branches and how they interact, as well as who belongs in each branch. We also talk about what each branch controls, who you vote for and who is appointed, and how subsections of the three main branches work.
   notes: |
-    In this episode we referred to **these things**:
-
-    - [One link](#)
-    - [Another link](#)
-
-    We also talked about *this* and *that*.
-  homework: find out who your representative and senators are
+    A quick correction: in this episode, we said that the President appoints secretaries, diplomats, and justices, and the Senate confirms them. Technically, the President *nominates* people for those positions and then the Senate confirms them.
+  links: |
+    - [The official U.S. government website about federal elections and voting](https://www.usa.gov/voting) is a good starting place for information and resources about voting in the U.S.
+    - [Look up contact information for all your elected officials](https://www.usa.gov/elected-officials)
+    - General background and information about the [Legislative Branch](https://www.whitehouse.gov/about-the-white-house/the-legislative-branch/), the [Executive Branch](https://www.whitehouse.gov/about-the-white-house/the-executive-branch/), and the [Judicial Branch](https://www.whitehouse.gov/about-the-white-house/the-judicial-branch/)
+    - Official websites for the [House of Representatives](https://www.house.gov/) and [Senate](https://www.senate.gov/), where you can find your representatives’ contact info and look up bills
+    - Official website of the [President and the Executive Branch](https://www.whitehouse.gov/)
+    - [A list of all the government agencies](https://www.usa.gov/agencies) and what they are responsible for
+    - Official website of [the Federal Register](https://www.federalregister.gov/), the repository of federal regulations and agency rules
+    - [Look at and comment on proposed regulations](https://beta.regulations.gov/) (the site appears to be in beta, undergoing a revamp)
+    - Official website of the [Supreme Court](https://www.supremecourt.gov/)
+    - [The *Obergefell v. Hodges* opinion](https://www.supremecourt.gov/opinions/14pdf/14-556_3204.pdf), which is worth a read
+  homework: look up your federal representatives
   expandedHomework: |
-    - Be alert!
-    - The world needs more lerts!
+    - Know who your [senators](https://www.senate.gov/general/contact_information/senators_cfm.cfm) and [representative](https://www.house.gov/representatives) are
+    - Look into their legislative interests and priorities
+    - Maybe follow them on twitter, or put their office phone number in your address book
+
+- number: 2
+  title: State Governments
+  audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-20/99940890-44100-2-f44be6b83653b.m4a
+  summary: >
+    In this episode Eli and Sonia provide you with an overview of state governments. We couldn’t do every single state individually, but we give a broad sketch of what most state governments look like. We also describe federalism and how it works, with a couple of examples to provide some clarity.
+  notes: |
+    A quick clarification: in this episode we unintentionally implied that the U.S. Postal Service is not an agency. This is incorrect! The USPS is an independent agency under the Executive branch. However, the Constitution also explicitly gives the Federal Government the power to establish post offices and post roads, which is why it’s a federal agency rather than run by states.
+  links: |
+    - Find your [local state’s election office](https://www.usa.gov/election-office).
+    - Here is a [list of every state governor](https://ballotpedia.org/List_of_governors_of_the_American_states).
+    - Nebraska has helpfully provided us with [some info on their weird state government](https://nebraskalegislature.gov/about/about.php).
+    - Here is [New York’s attempt at helping you understand](https://www.nycourts.gov/courts/structure.shtml) their weird court system. We’re still judging you, New York.
+    - A few lists of [which states elect judges](https://ballotpedia.org/Judicial_election_methods_by_state), hold partisan or nonpartisan elections for judges, have retention elections, or do not elect judges.
+    - [An annotated version of the U.S. Constitution](https://www.senate.gov/civics/resources/pdf/US_Constitution-Senate_Publication_103-21.pdf), with notes to provide clarity. Articles IV and VI are particularly relevant to this episode, as is the Tenth Amendment.
+    - Some [background reading on the Commerce Clause](https://bit.ly/34thoGv), including links to further info.
+    - Some [analysis and background](https://constitution.congress.gov/browse/amendment-10/) on the Tenth Amendment.
+    - Helpful [background reading on Federalism](https://bit.ly/32aBdPQ) and how it works.
+    - Just in case you wanted [the stats](https://ballotpedia.org/Clarence_Thomas_(Supreme_Court)) to prove that Thomas writes a lot of dissents.
+    - Two maps comparing U.S. states to European countries by [size](https://bit.ly/3hfNk4n) and [population](https://bit.ly/2Ycudkr).
+    - Background reading on [state police powers](https://www.britannica.com/topic/police-power).
+    - Here are [the EPA’s regulations for emissions from onroad vehicles](https://bit.ly/3h9gYIC). (There are separate regulations for greenhouse gases and offroad vehicles, also linked on this page.)
+    - [Here](https://dpo.st/3heRQAk) [are](https://bit.ly/2CIJ8vb) [some](https://bit.ly/3l0CbXE) [articles](https://bit.ly/3iXLINa) [about](https://bit.ly/3iU64a8) [cannabis](https://politi.co/3gdlUel) [legalisation](https://wapo.st/3iPmwbM) [and](https://bit.ly/3l2HFRK) [Federalism](https://www.uclalawreview.org/pdf/62-1-2.pdf).
+    - Here’s a [solid background on the Supremacy Clause](https://constitution.congress.gov/browse/essay/artVI_C2_1_1_3/).
+    - [Should you go to law school?](https://bit.ly/2FGJS56) Probably not, tbh.
+  homework: look up your state representatives
+  expandedHomework: |
+    - [Find out who they are!](https://www.congress.gov/state-legislature-websites)
+    - Maybe check out their voting history on some issues you care about, and see if you want to write to them or call them about anything pending
+    - Put their numbers into your address book, and consider going to a town hall or public event where one of them will be present.
+
+# - number:
+#   title:
+#   audioUrl:
+#   summary: >
+
+#   notes: |
+
+#   links: |
+
+#   homework:
+#   expandedHomework: |
