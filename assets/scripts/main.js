@@ -27,12 +27,16 @@ function toggleEpisodeExpanded(episodeEl) {
   episodeEl.classList[expanded ? 'remove' : 'add']('expanded');
 }
 
-const PLAY_ICON = 'fa-play';
-const PAUSE_ICON = 'fa-pause';
-function togglePlayButton(playButtonEl) {
-  const isPlaying = playButtonEl.classList.contains(PAUSE_ICON);
+const PLAY_ICON = 'fa-play-circle';
+const PAUSE_ICON = 'fa-pause-circle';
+function togglePlayButton(playButton) {
+  const playButtonIcon = playButton.querySelector('.play-button-icon');
+  const isPlaying = playButtonIcon.classList.contains(PAUSE_ICON);
 
-  document.querySelectorAll(`.play-button.${PAUSE_ICON}`)
+  document.querySelectorAll(`.play-button-icon.${PAUSE_ICON} + .play-button-text`)
+    .forEach(span => span.innerHTML = 'Listen' );
+
+  document.querySelectorAll(`.play-button-icon.${PAUSE_ICON}`)
     .forEach(button => {
       button.classList.remove(PAUSE_ICON);
       button.classList.add(PLAY_ICON);
@@ -41,9 +45,13 @@ function togglePlayButton(playButtonEl) {
   if(isPlaying) {
     AudioPlayer.pause();
   } else {
-    AudioPlayer.play(playButtonEl.dataset.url);
-    playButtonEl.classList.remove(PLAY_ICON);
-    playButtonEl.classList.add(PAUSE_ICON);
+    AudioPlayer.play(playButton.dataset.url);
+
+    playButtonIcon.classList.remove(PLAY_ICON);
+    playButtonIcon.classList.add(PAUSE_ICON);
+
+    const playButtonText = playButton.querySelector('.play-button-text');
+    playButtonText.innerHTML = 'Pause';
   }
 }
 
