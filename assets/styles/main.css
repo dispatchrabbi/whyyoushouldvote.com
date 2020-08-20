@@ -7,26 +7,31 @@ html {
   background-position: top;
 }
 
-body {
-  background-color: transparent;
-  /* font-family: 'Public Sans', sans-serif; */
+a {
+  color: var(--text-primary, #005ea2);
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', 'serif';
-} */
+body {
+  background-color: transparent;
+}
 
 article {
   background-color: white;
 }
 
+.play-button {
+  cursor: pointer;
+}
+
 article > .notes,
+article > .links,
 article > .homework,
 article > .collapse {
   display: none;
 }
 
 article.expanded > .notes,
+article.expanded > .links,
 article.expanded > .homework,
 article.expanded > .collapse {
   display: block;
@@ -55,6 +60,10 @@ article.expanded > .expand {
   text-align: center;
 }
 
-a {
-  color: var(--text-primary, #005ea2);
+#subscribe-shroud {
+  background-color: var(--bg-base-darkest-but-80-opacity, rgba(27, 27, 27, 0.8));
+}
+
+#subscribe-close {
+  cursor: pointer;
 }

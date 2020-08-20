@@ -29,13 +29,13 @@
       "><h2 class="margin-top-0">Your guide to becoming an informed voter</h2>
         <div class="display-none tablet:display-block">
           <a class="usa-button usa-button--outline usa-button--inverse" href="https://www.rockthevote.org/how-to-vote/am-i-registered-to-vote/">Check Your Registration</a>
-          <button class="usa-button usa-button--accent-cool">Subscribe</button>
+          <button class="subscribe-button usa-button usa-button--accent-cool">Subscribe</button>
         </div>
       </div>
     </header>
 
     <nav class="grid-row grid-gap tablet:display-none margin-bottom-2">
-      <div class="grid-col-12 mobile-lg:grid-col-6 margin-bottom-1"><button class="usa-button usa-button--accent-cool width-full">Subscribe</button></div>
+      <div class="grid-col-12 mobile-lg:grid-col-6 margin-bottom-1"><button class="subscribe-button usa-button usa-button--accent-cool width-full">Subscribe</button></div>
       <div class="grid-col-12 mobile-lg:grid-col-6 margin-bottom-1"><a class="usa-button usa-button--outline usa-button--inverse width-full" href="https://www.rockthevote.org/how-to-vote/am-i-registered-to-vote/">Check Your Registration</a></div>
     </nav>
 
@@ -55,13 +55,30 @@
 
     <footer class="margin-y-4">
       <div id="license" class="maxw-tablet margin-x-auto font-body-3xs">
-        <p>&copy;2020. Licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>.</p>
+        <p>&copy;2020. Released under <a rel="license" href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>. Contact us at whyyoushouldvotepodcast@gmail.com.</p>
         <p>Our theme music is <a href="https://commons.wikimedia.org/wiki/File:John_Philip_Sousa_-_Comrades_of_the_Legion.ogg"><em>Comrades of the Legion</em> by John Philip Sousa</a>. Our background is from <a href="https://archive.org/details/clevelandart-1942.1241-the-inauguration-of">an engraving of Lincoln's inauguration by Winslow Homer</a>, provided by <a href="https://www.clevelandart.org/art/1942.1241">the Cleveland Museum of Art</a>.</p>
       </div>
       <div id="go-vote" class="font-heading-3xl">GO VOTE!</div>
     </footer>
 
+    <div id="subscribe-shroud" class="display-none position-fixed top-0 bottom-0 left-0 right-0">
+      <div id="subscribe-box" class="margin-x-auto margin-top-3 width-mobile bg-white">
+        <header class="display-flex bg-accent-cool padding-2">
+          <h3 class="margin-0 flex-fill">Subscribe</h3>
+          <h3 id="subscribe-close" class="margin-0 flex-auto"><i class="fas fa-times-circle"></i></h3>
+        </header>
+        
+        <div class="padding-2 margin-y-1"><a href="https://anchor.fm/s/322111a0/podcast/rss"><img class="podcast-icon height-3" alt="RSS logo" title="Subscribe on RSS" src="assets/images/players/rss/rss-ORANGE.svg" /> RSS</a></div>
+        
+        <div class="padding-2 margin-y-1"><a href="https://anchor.fm/why-you-should-vote"><img class="podcast-icon height-3" alt="Anchor logo" title="Subscribe on Anchor" src="assets/images/players/anchor/Anchor_Logo-LOGO-BLACK.svg" /> Anchor</a></div>
+        
+        <div class="padding-2 margin-y-1"><a href="https://open.spotify.com/show/4PcfWrF1XPHqsGGWJ8Fguo"><img class="podcast-icon height-3" alt="Spotify logo" title="Subscribe on Spotify" src="assets/images/players/spotify/Spotify_Icon_RGB_Green.svg" /> Spotify</a></div>
+        
+      </div>
+    </div>
+
     <script src="assets/uswds/js/uswds.min.js"></script>
+    <script src="assets/scripts/subscribe-shroud.js"></script>
     <script src="assets/scripts/audio-player.js"></script>
     <script src="assets/scripts/main.js"></script>
   </body>
