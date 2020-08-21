@@ -6,7 +6,7 @@
 
 {% capture headerRightContent %}{% if ep.audioUrl %}
   <div class="play-button"  data-url="{{ ep.audioUrl }}">
-    <i class="play-button-icon fas fa-play-circle"></i><span class="play-button-text margin-left-05">Listen</span>
+    <i class="play-button-icon fas fa-play-circle"></i><span class="play-button-text margin-left-05">Listen ({{ ep.duration }})</span>
   </div>{% endif %}
 {% endcapture %}
 

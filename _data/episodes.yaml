@@ -1,6 +1,7 @@
 - number: 0
   title: Introduction
   audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-20/68b746da-546b-02b4-404d-22b17f8a9666.mp3
+  duration: '8:28'
   summary: >
     We discuss why it's important not just to vote, but be an informed and confident voter. We also talk about what this podcast is and is not, and what each episode will cover.
   notes:
@@ -13,6 +14,7 @@
 - number: 1
   title: The Federal Government
   audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-20/940a2ec7-e0da-6ece-517a-36d3cb5dbe6b.mp3
+  duration: '18:16'
   summary: >
     In this first official episode, Eli and Sonia take you through the basic structure of the federal government. We describe each of the three branches and how they interact, as well as who belongs in each branch. We also talk about what each branch controls, who you vote for and who is appointed, and how subsections of the three main branches work.
   notes: |
@@ -37,6 +39,7 @@
 - number: 2
   title: State Governments
   audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-20/99940890-44100-2-f44be6b83653b.m4a
+  duration: '15:48'
   summary: >
     In this episode Eli and Sonia provide you with an overview of state governments. We couldn’t do every single state individually, but we give a broad sketch of what most state governments look like. We also describe federalism and how it works, with a couple of examples to provide some clarity.
   notes: |
@@ -68,6 +71,7 @@
   title: Local Governments
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
@@ -81,6 +85,7 @@
   title: A History of Voting
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
@@ -94,6 +99,7 @@
   title: Voter Suppression
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
@@ -107,6 +113,7 @@
   title: How Other Countries Vote
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
@@ -120,6 +127,7 @@
   title: All the Elections!
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
@@ -133,6 +141,7 @@
   title: How to Pick a Candidate
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
@@ -146,6 +155,7 @@
   title: How to Vote
   unreleased: true
 #   audioUrl:
+#   duration:
 #   summary: >
 
 #   notes: |
