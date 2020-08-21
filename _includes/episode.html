@@ -5,7 +5,7 @@
 {% capture headerText %}{{ ep.number }}. {{ ep.title }}{% endcapture %}
 
 {% capture headerRightContent %}{% if ep.audioUrl %}
-  <div class="play-button"  data-url="{{ ep.audioUrl }}">
+  <div class="play-button" data-src="{{ ep.audioUrl }}" data-title="{{ ep.title }}">
     <i class="play-button-icon fas fa-play-circle"></i><span class="play-button-text margin-left-05">Listen ({{ ep.duration }})</span>
   </div>{% endif %}
 {% endcapture %}

@@ -1,25 +1,42 @@
 const AudioPlayer = {
-  getPlayer: function () {
-    let player;
-    player = document.getElementById('podcast-player');
-    if(!player) {
-      player = document.createElement('audio');
-      player.id = 'podcast-player';
-      document.body.append(player);
+  init: function() {
+    document.getElementById('audio-close')
+      .addEventListener('click', () => this.hidePlayer());
+  },
+
+  showPlayer: function() {
+    const player = document.getElementById('audio-player');
+    if(! player.classList.contains('display-flex')) {
+      player.classList.remove('display-none');
+      player.classList.add('display-flex');
+    }
+  },
+
+  hidePlayer: function() {
+    this.pause();
+
+    const player = document.getElementById('audio-player');
+    if(! player.classList.contains('display-none')) {
+      player.classList.remove('display-flex');
+      player.classList.add('display-none');
+    }
+  },
+
+  play: function (src, title) {
+    const audioEl = document.getElementById('audio-element');
+    const titleEl = document.getElementById('audio-title');
+
+    if(audioEl.src != src) {
+      audioEl.src = src;
+      titleEl.innerHTML = title;
     }
 
-    return player;
+    this.showPlayer();
+    audioEl.play();
   },
-  play: function (src) {
-    const player = this.getPlayer();
-    if(player.src != src) {
-      player.src = src;
-    }
 
-    player.play();
-  },
   pause: function () {
-    const player = this.getPlayer();
-    player.pause();
+    const audioEl = document.getElementById('audio-element');
+    audioEl.pause();
   },
 };

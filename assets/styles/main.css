@@ -67,3 +67,7 @@ article.expanded > .expand {
 #subscribe-close {
   cursor: pointer;
 }
+
+#audio-close {
+  cursor: pointer;
+}
