@@ -5,26 +5,12 @@ rss:
   icon-black: rss-BLACK.svg
   icon-white: rss-WHITE.svg
 
-anchor:
-  name: Anchor
-  link: https://anchor.fm/why-you-should-vote
-  icon: Anchor_Logo-LOGO-BLACK.svg
-  icon-black: Anchor_Logo-LOGO-BLACK.svg
-  icon-white: Anchor_Logo-LOGO-WHITE.svg
-
 pocket-casts:
   name: Pocket Casts
   link:
   icon: Pocket Casts - Logo.svg
   icon-black: Pocket Casts - Logo.svg
   icon-white: Pocket Casts - Logo.svg
-
-spotify:
-  name: Spotify
-  link: https://open.spotify.com/show/4PcfWrF1XPHqsGGWJ8Fguo
-  icon: Spotify_Icon_RGB_Green.svg
-  icon-black: Spotify_Icon_RGB_Black.svg
-  icon-white: Spotify_Icon_RGB_White.svg
 
 apple-podcasts:
   name: Apple Podcasts
@@ -35,10 +21,17 @@ apple-podcasts:
 
 google-podcasts:
   name: Google Podcasts
-  link:
+  link: https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8zMjIxMTFhMC9wb2RjYXN0L3Jzcw==
   icon: google_podcasts_icon_badge_svg.svg
   icon-black: google_podcasts_icon_badge_svg.svg
   icon-white: google_podcasts_icon_badge_svg.svg
+
+radio-public:
+  name: RadioPublic
+  link:
+  icon: radiopublic-flag-red.svg
+  icon-black: radiopublic-flag-KO.svg
+  icon-white: radiopublic-flag-white.svg
 
 breaker:
   name: Breaker
@@ -47,9 +40,16 @@ breaker:
   icon-black: logo-breaker-blue.svg
   icon-white: logo-breaker-white.svg
 
-radio-public:
-  name: RadioPublic
-  link:
-  icon: radiopublic-flag-red.svg
-  icon-black: radiopublic-flag-KO.svg
-  icon-white: radiopublic-flag-white.svg
+anchor:
+  name: Anchor
+  link: https://anchor.fm/why-you-should-vote
+  icon: Anchor_Logo-LOGO-BLACK.svg
+  icon-black: Anchor_Logo-LOGO-BLACK.svg
+  icon-white: Anchor_Logo-LOGO-WHITE.svg
+
+spotify:
+  name: Spotify
+  link: https://open.spotify.com/show/4PcfWrF1XPHqsGGWJ8Fguo
+  icon: Spotify_Icon_RGB_Green.svg
+  icon-black: Spotify_Icon_RGB_Black.svg
+  icon-white: Spotify_Icon_RGB_White.svg
