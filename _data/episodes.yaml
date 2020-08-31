@@ -70,44 +70,52 @@
 - number: 3
   title: Local Governments
   unreleased: true
-#   audioUrl:
-#   duration:
-#   summary: >
+  audioUrl:
+  duration: '9:12'
+  summary: >
 
-#   notes: |
+  notes: |
 
-#   links: |
-
-#   homework:
-#   expandedHomework: |
+  links: |
+    Links are coming soon! Keep an eye on this space for updates.
+  homework: look up your local governments and learn things about them
+  expandedHomework: |
+    - Who is your mayor? Who is your city councilor? Where are their offices?
+    - What level of local government runs your schools? Your zoning? Your law enforcement?
 
 - number: 4
-  title: A History of Voting
+  title: A History of Voting in the United States
   unreleased: true
-#   audioUrl:
-#   duration:
-#   summary: >
+  audioUrl:
+  duration: '12:10'
+  summary: >
 
-#   notes: |
+  notes: |
 
-#   links: |
-
-#   homework:
-#   expandedHomework: |
+  links: |
+    Links are coming soon! Keep an eye on this space for updates.
+  homework: connect your family and community history to the history of voting
+  expandedHomework: |
+    - Ask your parents or grandparents if they remember the Civil Rights movement, or the passage of the 26th Amendment during the Vietnam War. How did they feel about it? Did they participate in any way?
+    - See if you can find out anything about local efforts to secure the vote for disenfranchised groups. (Your local library or historical society may have something on local history which the librarians can help you find.)
 
 - number: 5
   title: Voter Suppression
   unreleased: true
-#   audioUrl:
-#   duration:
-#   summary: >
+  audioUrl:
+  duration: '16:26'
+  summary: >
 
-#   notes: |
+  notes: |
 
-#   links: |
-
-#   homework:
-#   expandedHomework: |
+  links: |
+    Links are coming soon! Keep an eye on this space for updates.
+  homework: check your registration and examine your state’s voting laws
+  expandedHomework: |
+    - If you haven’t registered to vote, [GO REGISTER TO VOTE!](https://vote.gov/)
+    - If you have registered, [check that your registration is up to date](https://www.rockthevote.org/how-to-vote/am-i-registered-to-vote/) and that it hasn’t been purged.
+    - Look at your state’s voting laws. Does your state disenfranchise felons? Does it require ID to vote? Can you vote early or by mail?
+    - How have your state’s voting laws changed recently? Are there any plans to change them for the upcoming election?
 
 - number: 6
   title: How Other Countries Vote
