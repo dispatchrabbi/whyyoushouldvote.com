@@ -14,7 +14,7 @@ pocket-casts:
 
 apple-podcasts:
   name: Apple Podcasts
-  link:
+  link: https://podcasts.apple.com/podcast/id1529007068
   icon: Apple_Podcast_Icon.svg
   icon-black: Apple_Podcast_Icon-BLACK.svg
   icon-white: Apple_Podcast_Icon-WHITE.svg
@@ -28,10 +28,17 @@ google-podcasts:
 
 radio-public:
   name: RadioPublic
-  link:
+  link: https://radiopublic.com/why-you-should-vote-GELy1r
   icon: radiopublic-flag-red.svg
   icon-black: radiopublic-flag-KO.svg
   icon-white: radiopublic-flag-white.svg
+
+overcast:
+  name: Overcast
+  link: https://overcast.fm/itunes1529007068/why-you-should-vote
+  icon: overcast.svg
+  icon-black: overcast-black.svg
+  icon-white: overcast-white.svg
 
 breaker:
   name: Breaker
