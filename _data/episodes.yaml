@@ -97,7 +97,7 @@
 
 - number: 5
   title: Voter Suppression
-  audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-7-31/ed44feb7-be54-672c-c0bf-f17964559ff2.mp3
+  audioUrl: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-8-1/ee543858-c702-e407-1308-5d186991e013.mp3
   duration: '16:26'
   summary: >
     In this episode Sonia and Eli describe various methods of intentional voter suppression. While some of these methods, like racist Jim Crow laws, have been weakened with time, others are alive and well today. With this episode we hope to make you alert to the danger posed by voter suppression. We also want to demonstrate how much voter suppression happens now. We’ll go through a list of common suppression techniques, and focus on one specific case to give you an idea of the true scope of the problem.
@@ -114,31 +114,35 @@
 - number: 6
   title: How Other Countries Vote
   unreleased: true
-#   audioUrl:
-#   duration:
-#   summary: >
+  audioUrl:
+  duration:
+  summary: >
+    In this episode, Sonia and Eli explain how other countries structure their governments and elect their representatives. We'll talk about different ways to ensure that the population is represented, and how those systems compare to the United States. We will also cover Ranked Choice Voting, which is an alternative way to run elections that tries to ensure that the person who wins is the one that most number of people are happiest with.
+  notes: |
 
-#   notes: |
-
-#   links: |
-
-#   homework:
-#   expandedHomework: |
+  links: |
+    Links are coming soon! Keep an eye on this space for updates.
+  homework: pick a country and learn about its government
+  expandedHomework: |
+    - Who is the head of state and who is the head of government? How does the legislature work?
+    - For bonus points: see if there is a group in your area campaigning for Ranked Choice Voting to be used in your local or state elections, and consider supporting their efforts!
 
 - number: 7
   title: All the Elections!
   unreleased: true
-#   audioUrl:
-#   duration:
-#   summary: >
+  audioUrl:
+  duration: '10:53'
+  summary: >
 
-#   notes: |
+  notes: |
 
-#   links: |
+  links: |
 
-#   homework:
-#   expandedHomework: |
-
+  homework: check your local election cycles
+  expandedHomework: |
+    - See who in your state government is up for election or reelection this year
+    - Check to see if there are any ballot initiatives happening in your state, and then look them up to figure out what you think about them
+    - See who’s running for what positions in your state, then do a little research on them to see who you might want to vote for
 - number: 8
   title: How to Pick a Candidate
   unreleased: true
