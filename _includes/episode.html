@@ -23,7 +23,7 @@
   </section>{% endif %}
   <section class="homework margin-2">
     <h4>Homework</h4>
-    <p>Your homework this week is to <strong>{{ ep.homework }}</strong>.</p>
+    <p>Your homework this week is to <strong>{{ ep.homework }}</strong>{{ ep.homeworkPunct | default: '.' }}</p>
     {{ ep.expandedHomework | markdownify }}
   </section>
   <div class="expand margin-2"><button class="usa-button usa-button--unstyled"><i class="fa fa-chevron-double-down"></i> Read more</button></div>
