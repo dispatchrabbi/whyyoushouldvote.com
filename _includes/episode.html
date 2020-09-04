@@ -1,3 +1,5 @@
+{% capture id %}episode-{{ ep.number }}{% endcapture %}
+
 {% capture headerBgClass %}{% unless ep.unreleased %}bg-primary{% else %}bg-base-light{% endunless %}{% endcapture %}
 
 {% capture headerTextClass %}{% unless ep.unreleased %}text-base-lightest{% else %}text-base-dark{% endunless %}{% endcapture %}
@@ -32,6 +34,7 @@
 {% endcapture %}
 
 {% include box.html
+  id: id,
   topClass: 'episode margin-bottom-2',
   headerBgClass: headerBgClass,
   headerTextClass: headerTextClass,

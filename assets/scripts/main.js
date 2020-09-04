@@ -19,7 +19,13 @@ function init() {
   document.querySelectorAll('.play-button')
     .forEach(button => button.addEventListener('click', function() { togglePlayButton(this); }));
 
-
+  // if an episode is specified in the URL, expand the description
+  if(document.location.hash) {
+    const specifiedEpisodeEl = document.getElementById(document.location.hash.slice(1));
+    if(specifiedEpisodeEl) {
+      toggleEpisodeExpanded(specifiedEpisodeEl);
+    }
+  }
 }
 
 function toggleEpisodeExpanded(episodeEl) {
