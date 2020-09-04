@@ -1,4 +1,4 @@
-{% capture id %}episode-{{ ep.number }}{% endcapture %}
+{% capture episodeId %}episode-{{ ep.number }}{% endcapture %}
 
 {% capture headerBgClass %}{% unless ep.unreleased %}bg-primary{% else %}bg-base-light{% endunless %}{% endcapture %}
 
@@ -6,7 +6,7 @@
 
 {% capture headerText %}{{ ep.number }}. {{ ep.title }}{% endcapture %}
 
-{% capture headerRightContent %}{% if ep.audioUrl %}
+{% capture playButton %}{% if ep.audioUrl %}
   <div class="play-button"  data-url="{{ ep.audioUrl }}">
     <i class="play-button-icon fas fa-play-circle"></i><span class="play-button-text margin-left-05">Listen ({{ ep.duration }})</span>
   </div>{% endif %}
@@ -34,11 +34,11 @@
 {% endcapture %}
 
 {% include box.html
-  id: id,
+  id: episodeId,
   topClass: 'episode margin-bottom-2',
   headerBgClass: headerBgClass,
   headerTextClass: headerTextClass,
   headerText: headerText,
-  headerRightContent: headerRightContent,
+  headerRightContent: playButton,
   content: content
 %}
