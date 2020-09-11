@@ -2,7 +2,7 @@
 {% assign headerRightContentLength = headerRightContent | strip_newlines | lstrip | rstrip | size %}
 <article {% if id %}id="{{ id }}"{% endif %} class="box {{topClass}} {% if contentLength > 0 %}border-bottom border-white{% endif %}">
   <header class="display-flex flex-align-center padding-2 {{ headerBgClass }} {{ headerTextClass }}">
-    <h3 class="flex-1 margin-0">{{ headerText }}</h3>
+    <h3 class="flex-1 margin-0"><a href="#{{ id }}">{{ headerText }}</a></h3>
     {% if headerRightContentLength > 0 %}<div {% if headerRightId %}id="{{ headerRightId }}"{% endif %} class="flex-auto {{ headerRightClass }}">{{ headerRightContent }}</div>{% endif %}
   </header>
   {{ content }}

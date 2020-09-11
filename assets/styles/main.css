@@ -25,6 +25,11 @@ article {
   background-color: white;
 }
 
+article h3 > a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .play-button {
   cursor: pointer;
 }
